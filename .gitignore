@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: Copyright © 2024 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Salim Kayal <salim.kayal@idiap.ch>
+#
+# SPDX-License-Identifier: MIT
+
+*~
+bin
+build
+.coverage
+.cache/
+develop-eggs
+dist
+.DS_Store
+*.egg
+*.egg-info
+eggs
+.gdb_history
+.installed.cfg
+.ipynb_checkpoints/
+.mr.developer.cfg
+.nfs*
+parts
+*.pyc
+__pycache__/
+record.txt
+sphinx/
+*.swp
+# pixi environments
+.pixi
+mnist_data
