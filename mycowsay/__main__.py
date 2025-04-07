@@ -1,4 +1,3 @@
-import cowsay
-import sys
+from mycowsay import say_python
 
-print(cowsay.cowsay(sys.version + "\n" + "\n".join(sys.path), width=80))
+say_python()
